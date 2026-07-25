@@ -36,6 +36,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# RAG vector index (generated)
+/data/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
