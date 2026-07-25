@@ -37,7 +37,9 @@ yarn-error.log*
 .vercel
 
 # RAG vector index (generated)
-/data/
+/data/*
+!/data/vectors/
+!/data/vectors/index.json
 
 # typescript
 *.tsbuildinfo
